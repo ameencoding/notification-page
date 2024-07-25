@@ -186,11 +186,12 @@ strong {
 /* Media queries */
 @media only screen and (max-width: 650px) {
   body {
-    position: initial;
-    padding: 1.5rem;
+    display: initial;
+    padding: 1rem;
   }
-
+}
+@media only screen and (max-width: 500px) {
   .wrapper {
-    width: 100%;
+    scale: 1;
   }
 }
