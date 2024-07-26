@@ -189,6 +189,11 @@ strong {
     display: initial;
     padding: 1rem;
   }
+
+  .container {
+    max-height: 550px;
+    overflow-y: auto;
+  }
 }
 @media only screen and (max-width: 500px) {
   .wrapper {
